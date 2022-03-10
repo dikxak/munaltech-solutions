@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MunalTech is an IOT based product selling startup company for houses and offices. Our vision is to make the office and house smart by making daily used things smart."
+    />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Munaltech &mdash; One Stop IOT Solution!</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"
+        ><img
+          src="img/munaltech-logo.png"
+          alt="Munal Tech Solution Logo"
+          class="logo"
+      /></a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#section-service">Services</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#section-how">How we service</a>
+          </li>
+          <li><a class="main-nav-link" href="#section-feature">Features</a></li>
+          <li>
+            <a class="main-nav-link" href="#section-testimonial"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#section-pricing"
+              >Pricing plans</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="mobile-nav">
+        <ion-icon
+          class="mobile-nav-icon"
+          name="reorder-three-outline"
+        ></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1 class="primary-heading">
+              Elevating thriving interactive experience with your things, every
+              single day
+            </h1>
+            <p class="hero-summary">
+              The inexpensive plans to make your place smart, installed within
+              60 days of service demand. We are opening your way towards
+              futurustic world of technology.
+            </p>
+
+            <a href="#section-cta" class="btn btn--big btn--cta margin-right-sm"
+              >Start living smart</a
+            >
+            <a href="#section-service" class="btn btn--border btn--learn-more"
+              >Learn More &darr;</a
+            >
+
+            <div class="hero-stats">
+              <div class="star-box">
+                <ion-icon name="star" class="hero-icon"></ion-icon>
+                <ion-icon name="star" class="hero-icon"></ion-icon>
+                <ion-icon name="star" class="hero-icon"></ion-icon>
+                <ion-icon name="star" class="hero-icon"></ion-icon>
+                <ion-icon name="star-half" class="hero-icon"></ion-icon>
+              </div>
+              <span class="stats-text"><strong>2,500+</strong> reviews on</span>
+              <img
+                src="img/trustpilot_icon.png"
+                alt="Trust Pilot Company Logo"
+                class="stats-logo"
+              />
+            </div>
+          </div>
+
+          <div class="hero-img">
+            <picture>
+              <source srcset="img/hero-img.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+              <img
+                src="img/hero-min.png"
+                alt="Combined image of smart kitchen room, couples watching netflix on television & big television which gives experience of 3D movie or picture"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-service">
+        <div class="container">
+          <span class="sub-heading">services</span>
+          <h2 class="secondary-heading">
+            Transforming your boring place to smart
+          </h2>
+        </div>
+
+        <div class="container">
+          <div class="tab-btn-container grid grid--6-cols">
+            <button class="btn btn-tab btn-tab--active" data-tab="1">
+              Room
+            </button>
+            <button class="btn btn-tab" data-tab="2">Appliances</button>
+            <button class="btn btn-tab" data-tab="3">Security</button>
+            <button class="btn btn-tab" data-tab="4">Desk</button>
+            <button class="btn btn-tab" data-tab="5">Map</button>
+            <button class="btn btn-tab" data-tab="6">Recognition</button>
+          </div>
+
+          <div
+            class="tab-content grid grid--2-cols grid--center-v"
+            id="tab-content--1"
+          >
+            <div class="tab-content-text">
+              <h3 class="tertiary-heading">
+                <span class="highlight">Smart</span> Room
+              </h3>
+              <p class="tab-text">
+                Our technology will provide you with the smart room that reduces
+                your stress as well as task to maintain each things inside of
+                it. We provide smart TV, home cinema, lightning, thermostats so
+                to say few features to your room.
+              </p>
+              <a
+                href="https://twitter.com/poudel_dikshak"
+                target="_blank"
+                class="btn btn--tab-content"
+                >Find More &rarr;</a
+              >
+            </div>
+            <div class="tab-content-img">
+              <img src="img/services/smart-room.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="tab-content grid grid--2-cols grid--center-v hidden"
+            id="tab-content--2"
+          >
+            <div class="tab-content-text">
+              <h3 class="tertiary-heading">
+                <span class="highlight">Smart</span> Appliances
+              </h3>
+              <p class="tab-text">
+                These smart appliances will take your life and lifestyle to the
+                next level. Did you ever forgot to switch off any appliances? If
+                so, don't worry now, you will be able to interact with any
+                appliances remotely.
+              </p>
+              <a
+                href="https://twitter.com/poudel_dikshak"
+                target="_blank"
+                class="btn btn--tab-content"
+                >Find More &rarr;</a
+              >
+            </div>
+            <div class="tab-content-img">
+              <img src="img/services/appliances.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="tab-content grid grid--2-cols grid--center-v hidden"
+            id="tab-content--3"
+          >
+            <div class="tab-content-text">
+              <h3 class="tertiary-heading">
+                <span class="highlight">Smart</span> Security
+              </h3>
+              <p class="tab-text">
+                Do you want your house to be the safest? We install the most
+                advanced and smart CCTV cameras and thermal sensors that will
+                immediately alarm you if any unusual is happenning to your home.
+              </p>
+              <a
+                href="https://twitter.com/poudel_dikshak"
+                target="_blank"
+                class="btn btn--tab-content"
+                >Find More &rarr;</a
+              >
+            </div>
+            <div class="tab-content-img">
+              <img src="img/services/security.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="tab-content grid grid--2-cols grid--center-v hidden"
+            id="tab-content--4"
+          >
+            <div class="tab-content-text">
+              <h3 class="tertiary-heading">
+                <span class="highlight">Smart</span> Desks
+              </h3>
+              <p class="tab-text">
+                Are your employees having problem with fixed desks which hampers
+                their productivity? Our smart desk solution will store every
+                preference for each employee and they just need to choose their
+                preference.
+              </p>
+              <a
+                href="https://twitter.com/poudel_dikshak"
+                target="_blank"
+                class="btn btn--tab-content"
+                >Find More &rarr;</a
+              >
+            </div>
+            <div class="tab-content-img">
+              <img src="img/services/smart-desk.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="tab-content grid grid--2-cols grid--center-v hidden"
+            id="tab-content--5"
+          >
+            <div class="tab-content-text">
+              <h3 class="tertiary-heading">
+                <span class="highlight">Indoor</span> Maps
+              </h3>
+              <p class="tab-text">
+                Do your customers are often lost in your office? Indoor map
+                inside of any office or company will contain the entire
+                information of office internals and is enriched with voice
+                enabled system for guiding your customer.
+              </p>
+              <a
+                href="https://twitter.com/poudel_dikshak"
+                target="_blank"
+                class="btn btn--tab-content"
+                >Find More &rarr;</a
+              >
+            </div>
+            <div class="tab-content-img">
+              <img src="img/services/office-map.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="tab-content grid grid--2-cols grid--center-v hidden"
+            id="tab-content--6"
+          >
+            <div class="tab-content-text">
+              <h3 class="tertiary-heading">
+                <span class="highlight">Employee</span> Recognition System
+              </h3>
+              <p class="tab-text">
+                In this pandemic era this is the most needed system. We will
+                install the system which will contain many ways of registering
+                the attendace of your employees with the most advanced and quick
+                sensors present there.
+              </p>
+              <a
+                href="https://twitter.com/poudel_dikshak"
+                target="_blank"
+                class="btn btn--tab-content"
+                >Find More &rarr;</a
+              >
+            </div>
+            <div class="tab-content-img">
+              <img src="img/services/face-recognition.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how">
+        <div class="container">
+          <span class="sub-heading">How we service</span>
+          <h2 class="secondary-heading">
+            Your smart lifestyle is just 4 steps away
+          </h2>
+        </div>
+
+        <div class="container">
+          <div class="step-container">
+            <div class="step grid grid--2-cols grid--center-v">
+              <div class="step--text-box">
+                <h3 class="step--heading">
+                  <span class="step--num">1</span> Select convenient plan for
+                  you
+                </h3>
+                <p class="step--description">
+                  Explore and select among the plans which best fits for your
+                  place. We will make sure to provide you with the preferred
+                  plan you chose for you by reaching out as fast as possible.
+                </p>
+              </div>
+              <div class="step-img-box">
+                <img src="img/steps/step-1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="step grid grid--2-cols grid--center-v">
+              <div class="step-img-box">
+                <img src="img/steps/step-2.jpg" alt="" />
+              </div>
+              <div class="step--text-box">
+                <h3 class="step--heading">
+                  <span class="step--num">2</span> Review and examine your place
+                </h3>
+                <p class="step--description">
+                  Our expert team of architect will examine your preferred place
+                  by visiting and scanning each and every corners of each room
+                  and develop sitemap.
+                </p>
+              </div>
+            </div>
+
+            <div class="step grid grid--2-cols grid--center-v">
+              <div class="step--text-box">
+                <h3 class="step--heading">
+                  <span class="step--num">3</span>Design fitting install
+                  structure
+                </h3>
+                <p class="step--description">
+                  The sitemap developed by the architect will be looked into for
+                  the best and appropriate installations of the system to your
+                  place by expert professionals in this field.
+                </p>
+              </div>
+              <div class="step-img-box">
+                <img src="img/steps/step-3.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="step grid grid--2-cols grid--center-v">
+              <div class="step-img-box">
+                <img src="img/steps/step-4.jpg" alt="" />
+              </div>
+              <div class="step--text-box">
+                <h3 class="step--heading">
+                  <span class="step--num">4</span> Install preferred system
+                </h3>
+                <p class="step--description">
+                  Finally, we will deliver the best home or office experience by
+                  installing smart system to your place. Now, you will never use
+                  things in old boring ways again.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-feature">
+        <div class="container">
+          <span class="sub-heading">Features</span>
+          <h2 class="secondary-heading">MunalTech never disappoint its user</h2>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <div class="feature">
+            <div class="feature-icon-box">
+              <ion-icon name="headset" class="feature-icon"></ion-icon>
+            </div>
+            <div class="feature-text">
+              <p class="feature-title">Flawless Support</p>
+              <p class="feature-description">
+                We have branches in major cities along with sub-branches. So, we
+                are never delay to your service. You can count on us.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon-box">
+              <ion-icon name="reload" class="feature-icon"></ion-icon>
+            </div>
+            <div class="feature-text">
+              <p class="feature-title">Remote Upgrade</p>
+              <p class="feature-description">
+                The remote controlling of each and every device makes it easier
+                to get updates and upgrades easily and remotely.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon-box">
+              <ion-icon name="thumbs-up" class="feature-icon"></ion-icon>
+            </div>
+            <div class="feature-text">
+              <p class="feature-title">Keeping it up!</p>
+              <p class="feature-description">
+                We believe in providing the best service and devices. So, you
+                get free installation whenever new device launch.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon-box">
+              <ion-icon name="construct" class="feature-icon"></ion-icon>
+            </div>
+            <div class="feature-text">
+              <p class="feature-title">Maintenance</p>
+              <p class="feature-description">
+                We check and maintain your devices with consistency by
+                frequently visiting your place time and again.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon-box">
+              <ion-icon name="phone-portrait" class="feature-icon"></ion-icon>
+            </div>
+            <div class="feature-text">
+              <p class="feature-title">View on device</p>
+              <p class="feature-description">
+                Instanteneous Data of various sensors installed to your place
+                with one click on your preferrable device.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon-box">
+              <ion-icon name="cloud-done" class="feature-icon"></ion-icon>
+            </div>
+            <div class="feature-text">
+              <p class="feature-title">Cloud Storage</p>
+              <p class="feature-description">
+                We store your information with very secure servers and security
+                so you can veiw your old data anytime you want.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container stats-box grid grid--3-cols grid--center-v">
+          <p class="stat">
+            <span class="stat-num">100+</span>
+            <span class="stat-text">Homes made smart this year</span>
+          </p>
+
+          <p class="stat">
+            <span class="stat-num">150+</span>
+            <span class="stat-text">Offices made smart previous year</span>
+          </p>
+
+          <p class="stat">
+            <span class="stat-num">500+</span>
+            <span class="stat-text">Services installed and counting</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="section-testimonial">
+        <div class="container">
+          <span class="sub-heading text-center">Testimonials</span>
+          <h2 class="secondary-heading text-center">
+            What our users say about us
+          </h2>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonials">
+            <div class="testimonial">
+              <div class="testimonial-text-box">
+                <ion-icon
+                  name="chatbubbles"
+                  class="testimonial-icon"
+                ></ion-icon>
+                <blockquote class="testimonial-text">
+                  The most user friendly UI that i have ever seen. The UI is so
+                  good that i don't have any furstation at all. I have used
+                  other smart home services integrated app before and this is
+                  the top notch till date.
+                </blockquote>
+                <p class="testimonial-author">&mdash; Johanna P. Corbin</p>
+              </div>
+
+              <picture class="testimonial-img">
+                <source
+                  srcset="img/customers/johanna_corbin.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/customers/johanna_corbin.png"
+                  type="image/png"
+                />
+                <img
+                  src="./img/customers/johanna_corbin.png"
+                  alt="Customer Johanna P. Corbin"
+                />
+              </picture>
+            </div>
+
+            <div class="testimonial">
+              <div class="testimonial-text-box">
+                <ion-icon
+                  name="chatbubbles"
+                  class="testimonial-icon"
+                ></ion-icon>
+                <blockquote class="testimonial-text">
+                  The customer service and help these guys provide is
+                  incomparable. I had an issue with my smart TV few weeks back
+                  and it was simple issue but these guys reached with me in no
+                  time and fixed it.
+                </blockquote>
+                <p class="testimonial-author">&mdash; Tyson Bradford</p>
+              </div>
+
+              <picture class="testimonial-img">
+                <source
+                  srcset="img/customers/tyson_bradford.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/customers/tyson_bradford.png"
+                  type="image/png"
+                />
+                <img
+                  src="./img/customers/tyson_bradford.png"
+                  alt="Customer Johanna P. Corbin"
+                />
+              </picture>
+            </div>
+
+            <div class="testimonial">
+              <div class="testimonial-text-box">
+                <ion-icon
+                  name="chatbubbles"
+                  class="testimonial-icon"
+                ></ion-icon>
+                <blockquote class="testimonial-text">
+                  I am myself into software development and things like that and
+                  i can assure you that the software they use for each system is
+                  remarkable and just up-to date.
+                </blockquote>
+                <p class="testimonial-author">&mdash; Mark N. Welliver</p>
+              </div>
+
+              <picture class="testimonial-img">
+                <source
+                  srcset="img/customers/mark_welliver.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/customers/mark_welliver.png"
+                  type="image/png"
+                />
+                <img
+                  src="./img/customers/mark_welliver.png"
+                  alt="Customer Johanna P. Corbin"
+                />
+              </picture>
+            </div>
+
+            <div class="testimonial">
+              <div class="testimonial-text-box">
+                <ion-icon
+                  name="chatbubbles"
+                  class="testimonial-icon"
+                ></ion-icon>
+                <blockquote class="testimonial-text">
+                  I am so much impressed with the devices which they install.
+                  The no-time response time of various systems feels like
+                  magical and makes it playful to use.
+                </blockquote>
+                <p class="testimonial-author">&mdash; Tahlia Montford</p>
+              </div>
+
+              <picture class="testimonial-img">
+                <source
+                  srcset="img/customers/tahlia_montford.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/customers/tahlia_montford.png"
+                  type="image/png"
+                />
+                <img
+                  src="./img/customers/tahlia_montford.png"
+                  alt="Customer Johanna P. Corbin"
+                />
+              </picture>
+            </div>
+          </div>
+
+          <div class="testimonial-btns">
+            <button
+              data-id="0"
+              class="btn-testimonial btn-testimonial--active"
+            ></button>
+            <button data-id="1" class="btn-testimonial"></button>
+            <button data-id="2" class="btn-testimonial"></button>
+            <button data-id="3" class="btn-testimonial"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pricing">
+        <div class="container">
+          <span class="sub-heading">Pricing</span>
+          <h2 class="secondary-heading">
+            Pay for service you want for your place
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols grid--center-v">
+          <div class="plan-box plan--basic">
+            <p class="plan-title text-center">Basic</p>
+            <p class="plan-price text-center">$3000</p>
+            <p class="plan-text text-center">for one time installation</p>
+
+            <button class="btn btn--light btn--pricing">Install Now</button>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Free maintenance for a year
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Device check each 4 months
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Basic packaged devices
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Plan renewal every year
+              </li>
+
+              <li class="list-item">
+                <ion-icon name="close-circle" class="list-icon"></ion-icon>
+              </li>
+
+              <li class="list-item">
+                <ion-icon name="close-circle" class="list-icon"></ion-icon>
+              </li>
+            </ul>
+          </div>
+
+          <div class="plan-box plan--full">
+            <p class="plan-title text-center">Full</p>
+            <p class="plan-price text-center">$7000</p>
+            <p class="plan-text text-center">for one time installation</p>
+
+            <button class="btn btn--big btn--pricing">Install Now</button>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Free maintenance for 3 years
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Device check each 3 months
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Access of every devices
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Plan renewal every 2.5 year
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                15% discount on installation
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Quick access to new devices
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Sensor monitoring device
+              </li>
+            </ul>
+          </div>
+
+          <div class="plan-box plan--medium">
+            <p class="plan-title text-center">Medium</p>
+            <p class="plan-price text-center">$5000</p>
+            <p class="plan-text text-center">for one time installation</p>
+
+            <button class="btn btn--light btn--pricing">Install Now</button>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Free maintenance for 1.5 year
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Device check each 3 months
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Medium packaged devices
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-circle" class="list-icon"></ion-icon>
+                Plan renewal every 1.5 year
+              </li>
+
+              <li class="list-item">
+                <ion-icon name="close-circle" class="list-icon"></ion-icon>
+              </li>
+
+              <li class="list-item">
+                <ion-icon name="close-circle" class="list-icon"></ion-icon>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="pricing-info-text text-center">
+          Taxes and extra service charges are applicable. Users can cancel at
+          any time.
+        </p>
+      </section>
+
+      <section class="section-partners">
+        <div class="container">
+          <span class="sub-heading">Partners</span>
+          <h2 class="secondary-heading">We work with best in the business</h2>
+        </div>
+
+        <div
+          class="container partners-logo grid grid--3-cols grid--center-v grid--center-h"
+        >
+          <img src="img/partners/cisco.png" alt="Cisco Logo" />
+          <img src="img/partners/ge-digital.png" alt="Ge Digital Logo" />
+          <img src="img/partners/ibm.png" alt="IBM Logo" />
+          <img src="img/partners/telit.png" alt="Telit Logo" />
+          <img src="img/partners/verizon.png" alt="Verizon Logo" />
+          <img src="img/partners/oxagile.png" alt="Oxagile Logo" />
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-gap"></div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Smart home with various smart devices"
+            ></div>
+            <div class="cta-content">
+              <span class="sub-heading">We'd love to chat</span>
+              <h2 class="secondary-heading">Get to know us</h2>
+              <p class="cta-text">
+                Make your place even more exciting with us today
+              </p>
+              <button class="btn btn--border">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="company-box">
+          <a href="#"
+            ><img
+              src="img//munaltech-logo.png"
+              alt="Munal Tech Logo"
+              class="footer-logo"
+          /></a>
+          <address class="company-contact">
+            <p class="address">
+              623 Atlantic Rd. Houston, 3rd Floor, TX 77036, Texas
+            </p>
+
+            <p>
+              <a href="tel:865-783-2241" class="footer-link">865-783-2241</a>
+              <br />
+              <a href="mailto:munaltech3737@gmail.com" class="footer-link"
+                >munaltech3737@gmail.com</a
+              >
+            </p>
+          </address>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://www.twitter.com/" class="footer-link"
+                ><ion-icon name="logo-twitter" class="footer-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" class="footer-link"
+                ><ion-icon name="logo-facebook" class="footer-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" class="footer-link"
+                ><ion-icon name="logo-instagram" class="footer-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" class="footer-link"
+                ><ion-icon name="logo-youtube" class="footer-icon"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2022</span> by MunalTech
+            solutions pvt.ltd. All rights reserved.
+          </p>
+        </div>
+
+        <nav class="nav-box">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">About Us </a></li>
+            <li><a href="#" class="footer-link">Services</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Our Partners</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-box">
+          <p class="footer-heading">Privacy</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Privacy & Terms </a></li>
+            <li><a href="#" class="footer-link">Branch Locator</a></li>
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#" class="footer-link">Contract Info</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-box">
+          <p class="footer-heading">Quick Links</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Our Teams</a></li>
+            <li><a href="#" class="footer-link">Pricing</a></li>
+            <li><a href="#" class="footer-link">Products</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

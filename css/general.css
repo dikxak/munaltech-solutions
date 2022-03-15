@@ -11,6 +11,16 @@
   box-shadow: 0 0 0 1rem rgb(166, 130, 255, 0.5);
 }
 
+::-moz-selection {
+  background: #745bb3;
+  color: #fff;
+}
+
+::selection {
+  background: #745bb3;
+  color: #fff;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;

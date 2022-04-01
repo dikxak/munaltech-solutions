@@ -86,13 +86,13 @@ const App = () => {
   const handleTabChange = function () {
     tabBtnContainer.addEventListener('click', function (e) {
       if (e.target.classList.contains('btn-tab')) {
+        tabContents.forEach(tab => tab.classList.add('tab-hidden'));
         tabBtns.forEach(btn => btn.classList.remove('btn-tab--active'));
-        tabContents.forEach(tab => tab.classList.add('hidden'));
 
         e.target.classList.add('btn-tab--active');
         const { tab: tabId } = e.target.dataset;
         const tab = document.getElementById(`tab-content--${tabId}`);
-        tab.classList.remove('hidden');
+        tab.classList.remove('tab-hidden');
       }
     });
   };

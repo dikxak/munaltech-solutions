@@ -216,7 +216,12 @@ strong {
   justify-items: center;
 }
 
+.tab-contents {
+  display: flex;
+}
+
 .tab-content {
+  flex: 1;
   padding: 6.4rem 4.8rem;
   box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.08);
   border-radius: 0 0 1rem 1rem;
@@ -259,6 +264,14 @@ strong {
 
 .hidden {
   display: none;
+}
+
+.tab-hidden {
+  display: grid;
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  margin-right: -100%;
 }
 
 .text-center {
